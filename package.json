@@ -1,0 +1,19 @@
+{
+  "name": "wordle-solver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wordle.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.0"
+  }
+}
