@@ -53,7 +53,7 @@ class SolutionModel {
             })
 
             if(!containsAllCorrectLetters) return false;
-            console.log('word with all the correct letters gets to here')
+            ('word with all the correct letters gets to here')
             // word must contain all the valid letters but not at the indexes given
             const validLetters = Object.keys(this.validLetters);
             const containsAllValidLetters = validLetters.every(validLetter => {
@@ -71,7 +71,6 @@ class SolutionModel {
             })
 
             if(!containsAllValidLetters) return false;
-            console.log('word with all the valid letters gets to here')
 
             // word must not contain any of the invalid letters
             return lettersInWord.every(letter => {
